@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📚 Demon Library</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOGIN -->
+<div id="loginPage" class="login-box">
+    <h1>👑 Demon Library</h1>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Masuk</button>
+    <p id="error"></p>
+</div>
+
+<!-- MAIN -->
+<div id="mainApp" style="display:none;">
+    <div class="main-wrapper">
+        <header>
+            <h1>📚 Demon Library</h1>
+            <p class="tagline">"Kekuatan Pengetahuan Gelap"</p>
+        </header>
+
+        <section class="input-section">
+            <input type="text" id="peminjam" placeholder="Nama peminjam...">
+        </section>
+
+        <div id="bookGrid" class="grid-container"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

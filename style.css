@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    background: radial-gradient(circle at top, #1a0000, #000);
+    color: #eee;
+}
+
+/* LOGIN */
+.login-box {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #140000;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px red;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #0f0f0f;
+    border: 1px solid red;
+    color: white;
+}
+
+.login-box button {
+    padding: 10px;
+    width: 100%;
+    background: darkred;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#error {
+    color: red;
+}
+
+/* MAIN */
+.main-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+.input-section input {
+    width: 100%;
+    padding: 10px;
+    background: #0f0f0f;
+    border: 1px solid red;
+    color: white;
+}
+
+/* GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* CARD */
+.card {
+    background: #1a0000;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255,0,0,0.3);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px red;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.ready { border: 2px solid lime; }
+.out { border: 2px solid red; opacity: 0.6; }
